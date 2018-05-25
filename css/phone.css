@@ -1,0 +1,312 @@
+#dz_product {
+    margin-top: 100px;
+    overflow-x: hidden;
+}
+
+#top {
+    background: rgba(0,0,0,.8);
+}
+
+div::before {
+    content: "";
+    display: table;
+}
+
+div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*part1*/
+#part1, #part3, #part5 {
+    width: 1120px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.p1, .p5 {
+    background: #F7F7F7;
+}
+
+#part1 > ul {
+    height: 400px;
+    margin: 40px 0 50px;
+}
+
+#part1 > ul > li.p_show {
+    float: left;
+    width: 30%;
+    height: 400px;
+    padding-left:20px;
+    text-align: center;
+}
+#part1 > ul > li.p_show div>h3{
+    padding-bottom: 8px;
+}
+#part1 > ul > li:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#part1 > ul > li.p_show a {
+    display: block;
+    height: 350px;
+    padding-top: 30px;
+}
+
+#part1 > ul > li.p_show div {
+    /*border-top: 1px solid #000;*/
+    padding: 2px;
+}
+#part1 > ul > li.p_show>div:last-child{
+    position:relative;
+    left:-30px;
+    top:-20px;
+}
+
+/*part2*/
+.p2 {
+    background: #393B3C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#part2 {
+    width: 1120px;
+    margin: 0 auto;
+    height: 168px;
+    position: relative;
+}
+
+#part2 ul {
+    width: 2240px;
+    height: 168px;
+    position: relative;
+
+}
+
+#part2 > div {
+    overflow: hidden;
+
+}
+
+#part2 > .arrow_left {
+    position: absolute;
+    top: 50px;
+    left: -60px;
+    cursor:pointer;
+}
+
+#part2 > .arrow_right {
+    position: absolute;
+    top: 50px;
+    right: -50px;
+    cursor:pointer;
+}
+
+#part2 > .arrow_left:hover, #part2 > .arrow_right:hover {
+    opacity: 0.5;
+}
+
+#part2 ul > li {
+    float: left;
+    width: 280px;
+}
+
+/*part3*/
+.p3 {
+    background: #222222;
+}
+
+#part3 > h1 {
+    color: #fff;
+}
+
+#part3 > .part3_1 {
+    height: 448px;
+}
+
+#part3 > .part3_1 > li {
+    float: left;
+    width: 50%;
+    height: 448px;
+}
+
+#part3 > .part3_1 > li.part3_1_2 > .part3_1_21 {
+    width: 100%;
+    height: 224px;
+}
+
+#part3 > .part3_1 > li.part3_1_2 > .part3_1_22 {
+    width: 50%;
+    height: 224px;
+}
+
+#part3 > .part3_2 > li {
+    float: left;
+    margin-top: 20px;
+    width: 265px;
+    height: 205px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#part3 > .part3_2 > li:last-child {
+    margin-right: 0;
+}
+
+#part3 > .part3_1 > .part3_1_2 > .part3_1_21, #part3 > .part3_1 > .part3_1_2 > .part3_1_22 {
+    position: relative;
+}
+
+#part3 > .part3_2 li a .mask, #part3 > .part3_1 > .part3_1_2 .mask {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    transition: all .3s;
+    overflow:hidden;
+}
+#part3 > .part3_2 li a:hover .mask, #part3 > .part3_1 .part3_1_21 .mask span{
+    transform:scaleX(0);
+}
+#part3 > .part3_2 li a:hover .mask, #part3 > .part3_1 .part3_1_21:hover .mask span{
+    transform:scaleX(1);
+    transition:transform 0.5s;
+}
+#part3 > .part3_2 li a:hover .mask, #part3 > .part3_1 > .part3_1_2 > div:hover .mask {
+    opacity: 0.7;
+    transition: all .3s ease-in-out;
+}
+
+#part3 > .part3_2 li a:hover .mask, #part3 > .part3_1 > .part3_1_2 > div:hover .mask span{
+    bottom:1.2rem;
+    transition: all .7s;
+}
+#part3 > .part3_2 li a .mask span {
+    font-size: 20px;
+    color: #fff;
+    line-height: 205px;
+}
+
+#part3 > .part3_2 .mask > div {
+    background: #fff;
+    width: 30px;
+    height:0.1rem;
+    z-index: 200;
+    position: absolute;
+    top: 50%;
+    transition: all 0.7s;
+}
+
+#part3 > .part3_2 .mask > .span_left {
+    left: 35px;
+}
+
+#part3 > .part3_2 .mask:hover > .span_left {
+    left: 65px;
+}
+
+#part3 > .part3_2 .mask > .span_right {
+    right: 35px;
+}
+
+#part3 > .part3_2 .mask:hover > .span_right {
+    right: 65px;
+}
+
+#part3 > .part3_1 > .part3_1_2 > .part3_1_22 span {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom:-1.5rem;
+    right:1.3rem;
+}
+
+#part3 > .part3_1 > .part3_1_2 > .part3_1_21 span {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#part3 > .part3_1 > .part3_1_1 {
+    overflow: hidden;
+}
+
+#part3 > .part3_1 > .part3_1_1 img:hover {
+    transform: scale(1.2);
+}
+
+#part3 > .part3_1 > .part3_1_1 img {
+    transition: transform .5s ease-in-out;
+}
+
+/*part4*/
+#part4 {
+    width: 100%;
+}
+
+#part4 #lunbo2 .carousel-inner img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+/*part5*/
+.p5 {
+    padding: 20px 0 40px;
+}
+
+#part5 {
+    padding: 0;
+}
+
+#part5 > ul:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#part5 > ul > li.p_show {
+    float: left;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    margin-right: 6.6%;
+    border: 1px solid #ddd;
+}
+
+#part5 > ul > li.p_show:last-child {
+    margin-right: 0;
+}
+
+#part5 > ul > li.p_show a {
+    display: block;
+    position: relative;
+}
+
+#part5 > ul > li.p_show a div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 38px;
+    color: #fff;
+    background: rgba(0, 0, 0, .8);
+    transition: all 0.3s;
+}
+#part5 > ul > li.p_show a div h3{
+    margin:5px 0;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+#part5 > ul > li.p_show a:hover div {
+    height: 60px;
+}

@@ -1,0 +1,707 @@
+@media screen and (max-width:1024px){
+  html,body{
+    width:107%;
+    overflow-x: hidden;
+  }
+}
+img,
+i,
+b,
+s{
+  vertical-align: bottom;
+}
+img {
+  max-width: 100%;
+}
+.vr_main{
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  font-family: simHei;
+}
+.vr_box1 {
+  width: 1120px;
+  margin: 0 auto;
+  padding-top:10px;
+}
+.vr_box2 {
+  width: 100%;
+  background: #000;
+  padding-top:10px;
+}
+.vr_box0 {
+  position: relative;
+}
+.vr_box0 .txt {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  width: 700px;
+  margin-left: -350px;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+.vr_box0 .txt h1 {
+  line-height: 4rem;
+  font-size: 3rem;
+}
+.vr_box0 .txt p {
+  line-height: 2rem;
+}
+.Lplay {
+  width: 100%;
+  height: 764px;
+  perspective: 2500;
+  -webkit-perspective: 2500;
+  -moz-perspective: 2500;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.Lplay ul {
+  width: 100%;
+  height: 764px;
+  margin: 0 auto;
+  position: relative;
+  transform-style: Preserve-3d;
+  -webkit-transform-style: Preserve-3d;
+}
+.Lplay ul li {
+  width: 100%;
+  height: 631px;
+  position: absolute;
+  top: 66px;
+  left: 114px;
+}
+.Lplay ul li img {
+  position: absolute;
+  left: 50%;
+  margin-left: -675px;
+}
+.Lplay ul li:nth-child(1) {
+  transform: rotatey(0) translatez(434px);
+  -o-transform: rotatey(0) translatez(434px);
+  -moz-transform: rotatey(0) translatez(434px);
+  -webkit-transform: rotatey(0) translatez(434px);
+  -ms-transform: rotatey(0) translatez(434px);
+}
+.Lplay ul li:nth-child(2) {
+  transform: rotatex(72deg) translatez(434px);
+  -o-transform: rotatex(72deg) translatez(434px);
+  -moz-transform: rotatex(72deg) translatez(434px);
+  -webkit-transform: rotatex(72deg) translatez(434px);
+  -ms-transform: rotatex(72deg) translatez(434px);
+}
+.Lplay ul li:nth-child(3) {
+  transform: rotatex(144deg) translatez(434px);
+  -o-transform: rotatex(144deg) translatez(434px);
+  -moz-transform: rotatex(144deg) translatez(434px);
+  -webkit-transform: rotatex(144deg) translatez(434px);
+  -ms-transform: rotatex(144deg) translatez(434px);
+}
+.Lplay ul li:nth-child(4) {
+  transform: rotatex(216deg) translatez(434px);
+  -o-transform: rotatex(216deg) translatez(434px);
+  -moz-transform: rotatex(216deg) translatez(434px);
+  -webkit-transform: rotatex(216deg) translatez(434px);
+  -ms-transform: rotatex(216deg) translatez(434px);
+}
+.Lplay ul li:nth-child(5) {
+  transform: rotatex(288deg) translatez(434px);
+  -o-transform: rotatex(288deg) translatez(434px);
+  -moz-transform: rotatex(288deg) translatez(434px);
+  -webkit-transform: rotatex(288deg) translatez(434px);
+  -ms-transform: rotatex(288deg) translatez(434px);
+}
+.Lplay + ul {
+  position: absolute;
+  bottom: 2rem;
+  left: 45%;
+  width: 200px;
+  height: 20px;
+}
+.Lplay + ul li {
+  float: left;
+  text-align: center;
+  margin: 0 5px;
+}
+.Lplay + ul li a {
+  display: block;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  color: black;
+}
+.Lplay + ul li a.checked {
+  color: #eee;
+  background: #000;
+}
+.reconmmend {
+  width: 1120px;
+  margin: 0 auto;
+}
+.reconmmend .title h1 {
+  color: #fff;
+}
+.title:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.title {
+  padding: 30px 0;
+}
+.title h1 {
+  float: left;
+}
+.title a {
+  float: left;
+  display: block;
+  width: 60px;
+  height: 24px;
+  background: #333333;
+  text-align: center;
+  line-height: 24px;
+  color: #fff;
+  margin: 4px 10px;
+}
+.pic {
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.pic:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pic i {
+  margin: 100px 50px;
+  width: 17px;
+  height: 32px;
+  float: left;
+  background: url("../img/mTb.png") no-repeat;
+}
+.pic i:first-child {
+  background-position: 0 -2079px;
+}
+.pic i:first-child.hover {
+  background-position: 0 -2141px;
+  cursor:pointer;
+}
+.pic i:last-child {
+  background-position: 0 -2203px;
+}
+.pic i:last-child.hover {
+  background-position: 0 -2265px;
+  cursor:pointer;
+}
+.pic .pic_box {
+  width: 884px;
+  float: left;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.pic .pic_box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pic .pic_box ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1768px;
+  height: 300px;
+}
+.pic .pic_box ul li {
+  float: left;
+}
+.video{
+  padding:10px;
+}
+.video ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.video ul {
+  padding-bottom: 30px;
+}
+.video ul li {
+  float: left;
+  width: 23%;
+}
+.video ul li:not(:last-child) {
+  margin-right: 2%;
+}
+.video ul li dd {
+  margin-top: 0.5rem;
+  height: 2rem;
+  overflow: hidden;
+  line-height: 2rem;
+}
+.video ul li dd:nth-child(2) > a {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+  color: black;
+}
+.video ul li dd:nth-child(2) > a:hover {
+  background: #333333;
+  color: white;
+  border-color: #333333;
+}
+.video ul li dd:nth-child(3) > a {
+  font-size: 1.2rem;
+}
+.video ul li dd:nth-child(3) > a:hover {
+  color: #ff4900;
+}
+.video ul li dd:nth-child(4) {
+  color: #aaa;
+}
+.video ul li dd:last-child span {
+  padding: 0.5rem 0 0.5rem 0;
+  background: url("../img/mTb.png") no-repeat;
+}
+.video ul li dd:last-child span:first-child {
+  background-position: 0 -195px;
+  padding-left: 2rem;
+}
+.video ul li dd:last-child span:nth-child(2) {
+  background-position: 0 -243px;
+  padding-left: 2.5rem;
+}
+.video ul li dd:last-child span + a {
+  background: url("../img/mTb.png") no-repeat;
+  background-position: 0 -850px;
+  padding: 0.5rem 0 0.5rem 2rem;
+  margin-left: 0.5rem;
+  transition: background-position 0.4s ease-in-out;
+}
+.video ul li dd:last-child span + a:hover {
+  background-position: 0 -900px;
+}
+.show {
+  position: relative;
+  background: url("../img/pages-4bg.png") no-repeat;
+  background-size: 100%;
+}
+.show > ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.show > ul > li {
+  position: absolute;
+}
+.show > ul > li:first-child {
+  top: 31.5%;
+  left: 12.6%;
+  margin-top: -48px;
+  margin-left: -48px;
+  animation: dian_1  1s linear infinite;
+  -moz-animation: dian_1  1s linear infinite;
+  -webkit-animation: dian_1  1s linear infinite;
+  -o-animation: dian_1  1s linear infinite;
+}
+@keyframes dian_1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-webkit-keyframes dian_1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-moz-keyframes dian_1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-o-keyframes dian_1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+.show > ul > li:nth-child(2) {
+  bottom: 21.8%;
+  left: 12.7%;
+  margin-left: -48px;
+  margin-bottom: -48px;
+  animation: dian_2 .9s linear infinite;
+  -o-animation: dian_2 .9s linear infinite;
+  -moz-animation: dian_2 .9s linear infinite;
+  -webkit-animation: dian_2 .9s linear infinite;
+}
+@keyframes dian_2 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-o-keyframes dian_2 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-moz-keyframes dian_2 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+@-webkit-keyframes dian_2 {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+.show > ul > li:nth-child(3) {
+  bottom: 9.5%;
+  right: 21.2%;
+  margin-right: -48px;
+  margin-bottom: -48px;
+  animation: dian_3 .8s linear infinite;
+  -o-animation: dian_3 .8s linear infinite;
+  -moz-animation: dian_3 .8s linear infinite;
+  -webkit-animation: dian_3 .8s linear infinite;
+}
+@keyframes dian_3 {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-o-keyframes dian_3 {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-webkit-keyframes dian_3 {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@-moz-keyframes dian_3 {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.show > ul > li:nth-child(4) {
+  bottom: 38%;
+  right: 12.2%;
+  margin-right: -48px;
+  margin-bottom: -48px;
+  animation: dian_4  1.2s linear infinite;
+  -o-animation: dian_4  1.2s linear infinite;
+  -moz-animation: dian_4  1.2s linear infinite;
+  -webkit-animation: dian_4  1.2s linear infinite;
+}
+@keyframes dian_4 {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-o-keyframes dian_4 {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-moz-keyframes dian_4 {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-webkit-keyframes dian_4 {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+.show .content_box {
+  width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+.show .content_box:before {
+  display: table;
+  content: "";
+}
+.show .content_box .text {
+  margin: 100px 0 20px;
+  color: #fff;
+  text-align: center;
+}
+.show .content_box .text h1 {
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+.show .content_box .text p {
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.show .content_box .long {
+  position: relative;
+  height:500px;
+}
+.show .content_box .long .shade {
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  margin-left: -270px;
+  width: 540px;
+  height: 245px;
+  background: url("../img/sights.png") no-repeat;
+  animation: run  20s linear infinite;
+  -o-animation: run  20s linear infinite;
+  -moz-animation: run  20s linear infinite;
+  -webkit-animation: run  20s linear infinite;
+}
+@keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -369px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -369px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@-webkit-keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -369px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes run {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -369px 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.show .content_box .long .tu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin:-189px 0 0 -334px;
+}
+.more {
+  width: 1120px;
+  margin: 0 auto;
+  text-align: center;
+}
+.more a {
+  display: inline-block;
+  padding: 15px 200px;
+  margin: 20px;
+  background: #000;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  outline: 0;
+  font-size: 14px;
+  color: #fff;
+}
+.more a:hover {
+  background: #fff;
+  color: black;
+}
+.list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list {
+  padding-bottom: 30px;
+  padding-left: 8px;
+}
+.list li {
+  float: left;
+  width: 30%;
+}
+.list li:not(:last-child) {
+  margin-right: 2rem;
+}
+.list li h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 2rem;
+  border-bottom: 2px solid #000;
+}
+.list li span {
+  float: left;
+  line-height: 2rem;
+}
+.list li ul {
+  clear: both;
+}
+.list li ul li {
+  width: 100%;
+  margin-bottom: 10px;
+  position:relative;
+}
+.list li ul li i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ddd;
+  color: #000;
+  text-align: center;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: bold;
+}
+.list li ul li:nth-child(1) i,
+.list li ul li:nth-child(2) i,
+.list li ul li:nth-child(3) i {
+  background: red;
+  color: #fff;
+}
+.list li ul li a.titlea{
+  display: inline-block;
+  width:300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list li ul li a.titlev{
+  position: absolute;
+  left:25px;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.list li ul li a + div {
+  display: none;
+}
+.list li ul li a + div img {
+  width: 100px;
+}
+.list li ul li a + div.elect {
+  display: block;
+  height:75px;
+  margin:3px;
+  overflow:hidden;
+}

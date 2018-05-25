@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>出错了!</title>
+<style>
+body {
+    font-size:14px;
+    font-family:"\5FAE\8F6F\96C5\9ED1", Arial, Helvetica, sans-serif;
+    background:#fff;
+    overflow-x:hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal;
+}
+.error_404 {
+    background:#fff;
+    height:540px;
+    padding-bottom:30px;
+}
+.error_404 .container {
+    width:960px;
+    height:540px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.error_404 .error_pic {
+    float:left;
+    width:560px;
+    height:540px;
+    background:url(img/error_404.jpg) 0 0 no-repeat;
+}
+.error_404 .error_info {
+    float:right;
+    width:390px;
+    padding-top:180px;
+}
+.error_404 .error_info h2 {
+    height:80px;
+    line-height:80px;
+    color:#333;
+    font-size:24px;
+    font-family:"\5FAE\8F6F\96C5\9ED1", Arial, Helvetica, sans-serif;
+}
+.error_404 .error_info .operate {
+    height:30px;
+    line-height:30px;
+}
+
+.error_404 input{
+    height:30px;
+}
+</style> 
+</head>
+<body onLoad="redirect()">
+<div class="error_404">
+	<div class="container clearfix">
+    	<div class="error_pic"></div>
+        <div class="error_info">
+        	<h2><p>对不起，您访问的页面不存在！</p></h2>
+            <p>
+            <span id="num"></span>秒后自动跳转到主页</p> 
+            <div class="operate">
+            	<input onclick="location.href='index.html'" type="button" value="返回主页">
+                <input onclick="history.go(-1)" type="button" value="返回上一页">
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+  var num=11;
+  function redirect(){
+    num--;
+    document.getElementById("num").innerHTML=num;
+    if(num<0){
+      document.getElementById("num").innerHTML=0;
+      location.href="index.html";
+      }
+    }
+  setInterval("redirect()", 1000);
+  </script>
+</body>
+</html>

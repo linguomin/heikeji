@@ -1,0 +1,159 @@
+body {
+  margin-top: 100px;
+}
+#top{
+  background:#000;
+}
+.ai a {
+  color: #fff;
+}
+.main {
+  background: #000;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.hot {
+  color: #333;
+}
+.main > .container{
+  padding-bottom: 1rem;
+}
+.main > .container > .row {
+  margin: 2em 0;
+}
+.big-img-container > div {
+  padding: 1em;
+}
+div.content{
+  margin-top:20px;
+}
+@media screen and (min-width: 768px) {
+  .small-img-container {
+    padding: 1.8em 1em;
+    line-height: 1.8em;
+  }
+  .big-img-container > div {
+    position: absolute;
+    bottom: 0;
+    padding:10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .small-img-container {
+    padding: 2.7em 1em 0;
+    line-height: 1.7em;
+  }
+}
+.img_box {
+  background: rgba(0, 0, 0, 0.3);
+}
+.big-img-container {
+  overflow: hidden;
+  position:relative;
+}
+.big-img-container p {
+  line-height: 1rem;
+  margin:5px 0;
+}
+.big-img-container > img{
+  -o-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  transform: scale(1, 1);
+  transition: transform 1s linear;
+}
+.big-img-container > img:hover {
+  transform: scale(1.2, 1.2);
+  transition: transform 1s linear;
+  -o-transform: scale(1.2, 1.2);
+  -o-transition: transform 1s linear;
+  -moz-transform: scale(1.2, 1.2);
+  -moz-transition: transform 1s linear;
+  -webkit-transform: scale(1.2, 1.2);
+  -webkit-transition: transform 1s linear;
+}
+.hot .row > div:nth-child(1) .row {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.hot .row > div:nth-child(1) .row a {
+  color: #333;
+}
+.hot .row > div:nth-child(1) .row h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: default;
+  margin:5px 0;
+}
+.hot .row > div:nth-child(1) .row h3:hover {
+  color: #f00;
+}
+.hot .row > div:nth-child(1) .row .content:before {
+  content: "";
+  display: table;
+}
+.hot .row > div:nth-child(1) .row .content a {
+  font-size: 0.9rem;
+  padding: 0.5rem 0 0.5rem 2rem;
+  background: url("../img/mTb.png") no-repeat;
+  margin-right: 1.5rem;
+}
+.hot .row > div:nth-child(1) .row .content a:first-child {
+  background-position: 5px -95px;
+}
+.hot .row > div:nth-child(1) .row .content a:first-child:hover {
+  background-position: 5px -145px;
+}
+.hot .row > div:nth-child(1) .row .content a:nth-child(2) {
+  background-position: 5px -195px;
+}
+.hot .row > div:nth-child(1) .row .content a:last-child {
+  background-position: 5px 5px;
+}
+.hot .row > div:nth-child(1) .row .content a:last-child:hover {
+  background-position: 5px -45px;
+}
+.hot .row > div:nth-child(1) .row p {
+  font-size: 0.8rem;
+  text-indent: 1.6rem;
+  color: #aaa;
+  padding-top: 1rem;
+  line-height: 1.2rem;
+}
+.hot .row > div:nth-child(1) .row .btn_box {
+  margin-top: 15px;
+}
+.hot .row > div:nth-child(1) .row .btn_box a {
+  font-size: 0.8rem;
+  color: #666;
+}
+.hot .row > div:nth-child(2) h4{
+  font-weight: bold;
+  margin:5px 0 10px;
+}
+.hot .row > div:nth-child(2) .row {
+  color: #333;
+  height: 5rem;
+}
+.hot .row > div:nth-child(2) .row h6 {
+  margin: 0 0 0.4rem -1rem;
+  cursor: default;
+}
+.hot .row > div:nth-child(2) .row h6:hover {
+  color: #f00;
+}
+.hot .row > div:nth-child(2) .row a {
+  color: #333;
+  font-size: 0.4rem;
+  margin-left:-1rem;
+}
+.list-unstyled a{
+  font-size:0.8rem;
+  transition:all 0.3s;
+}
+.list-unstyled a:hover{
+  color: #ff5960;
+}
+.list-unstyled li{
+  padding:0.2rem 0;
+}
